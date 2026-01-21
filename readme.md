@@ -10,7 +10,7 @@ It uses: - Waveshare's Python driver (`waveshare_epd`) - GitHub's
 **GraphQL API** to fetch `contributionCalendar` - Pillow (PIL) to draw
 the grid and push the frame buffer to the display
 
-![GitEtch running on e-ink](docs/images/gitetch2.jpg)
+![GitEtch running on e-ink](docs/images/gitetch.jpg)
 
 ------------------------------------------------------------------------
 
