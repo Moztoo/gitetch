@@ -148,9 +148,6 @@ Persist across reboots:
 echo 'export GITHUB_TOKEN="ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"' >> ~/.bashrc
 source ~/.bashrc
 ```
-
-Never commit the token.
-
 ------------------------------------------------------------------------
 
 ## Run
