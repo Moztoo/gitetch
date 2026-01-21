@@ -181,7 +181,7 @@ def render_calendar(epd, cal, login: str, days: int, weeks_to_show: int, cell: i
     top = 26
 
     # Day labels (Sunday, Monday, Wednesday, Friday)
-    labels = [("D", 0), ("L", 1), ("J", 4), ("S", 6)]
+    labels = [("Sun",0),("Mon",1),("Tue",2),("Wed",3),("Thu",4),("Fri",5),("Sat",6)]
     for ch, wd in labels:
         draw.text((left + len(weeks)*cw + 4, top + wd*cw - 2), ch, font=font_small, fill=0)
 
